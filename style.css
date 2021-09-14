@@ -102,6 +102,7 @@ body {
   grid-row: 2;
   animation-delay: 10s;
 }
+
 @keyframes blink {
   0% {
     transform: scale(0.5);
@@ -119,10 +120,26 @@ body {
 /* WAVE */
 
 .wave {
+  animation: waving 25s linear infinite;
+
   width: 900px;
 
   grid-column: 1/-1;
   grid-row: 6;
 
   justify-self: start;
+}
+
+@keyframes waving {
+  0% {
+    transform: translate(0%);
+  }
+
+  50% {
+    transform: translate(-44%);
+  }
+
+  0% {
+    transform: translate(0%);
+  }
 }
