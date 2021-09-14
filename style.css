@@ -21,6 +21,14 @@ body {
   border-radius: 1%;
 
   overflow: hidden;
+
+  display: grid;
+
+  grid-template-columns: repeat(9, 50px);
+  grid-template-rows: repeat(6, 50px);
+
+  align-items: center;
+  justify-items: center;
 }
 
 /* STAR */
