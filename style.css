@@ -31,6 +31,33 @@ body {
   justify-items: center;
 }
 
+/* MOON */
+
+.moon {
+  width: 30px;
+  height: 30px;
+
+  background: #fff;
+
+  border-radius: 50%;
+
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.moon::after {
+  width: 30px;
+  height: 30px;
+
+  content: "";
+  display: inline-block;
+
+  background: #03045e;
+  border-radius: 50%;
+
+  transform: translateX(10px);
+}
+
 /* STAR */
 
 .star {
