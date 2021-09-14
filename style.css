@@ -165,7 +165,7 @@ body {
   transform: translateY(20px);
   transform-origin: center;
 
-  animation: tilling 25s linear infinite, lowering 25s linear infinite;
+  animation: lowering 25s linear infinite;
 }
 
 .bp-1 {
@@ -211,4 +211,26 @@ body {
   background-color: #efbe43;
 
   transform: translateX(-22px);
+}
+
+@keyframes lowering {
+  0% {
+    transform: translateY(22px);
+  }
+
+  15% {
+    transform: translate(20px);
+  }
+
+  50% {
+    transform: translateY(18px);
+  }
+
+  75% {
+    transform: translateY(15px);
+  }
+
+  100% {
+    transform: translateY(30px);
+  }
 }
