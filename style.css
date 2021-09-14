@@ -143,3 +143,72 @@ body {
     transform: translate(0%);
   }
 }
+
+/* BOAT */
+
+.boat {
+  width: 150px;
+  height: 100px;
+
+  /* background-color: #7f5539; */
+
+  grid-column: 1 / 4;
+  grid-row: 4;
+
+  align-self: end;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 25px;
+
+  transform: translateY(20px);
+  transform-origin: center;
+
+  animation: tilling 25s linear infinite, lowering 25s linear infinite;
+}
+
+.bp-1 {
+  background: linear-gradient(45deg, #03045e 50%, #7f5539 50%);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.bp-2 {
+  background: #7f5539;
+
+  grid-column: 2;
+  grid-row: 2;
+
+  border-top: 2px solid #774936;
+  border-bottom: 2px solid #774936;
+}
+
+.bp-3 {
+  grid-column: 3;
+  grid-row: 2;
+
+  background: linear-gradient(-45deg, #03045e 50%, #7f5539 50%);
+}
+
+.pole {
+  width: 5px;
+
+  background-color: #7f5539;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  grid-column: 2;
+
+  justify-self: center;
+}
+
+.flag {
+  width: 45px;
+  height: 30px;
+
+  background-color: #efbe43;
+
+  transform: translateX(-22px);
+}
