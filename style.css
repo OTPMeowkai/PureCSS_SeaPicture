@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.picture {
+  background-color: #03045e;
+  width: 500px;
+
+  height: 300px;
+
+  margin: 0 auto;
+
+  border: 20px solid #ddb892;
+  border-radius: 1%;
+
+  overflow: hidden;
+}
