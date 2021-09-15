@@ -261,3 +261,41 @@ body {
     transform: translateY(30px);
   }
 }
+
+/* MAN */
+
+.man {
+  grid-column: 3;
+  grid-row: 2;
+
+  display: flex;
+
+  transform: translate(-10px, -18px);
+
+  gap: 15px;
+}
+
+.face {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  border: 3px solid black;
+
+  background: #fff;
+}
+
+.arms {
+  width: 5px;
+  height: 20px;
+
+  background: black;
+
+  transform: rotate(-35deg);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
