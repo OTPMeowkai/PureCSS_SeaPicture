@@ -272,7 +272,9 @@ body {
 
   transform: translate(-10px, -18px);
 
-  gap: 15px;
+  gap: 8px;
+
+  align-items: flex-end;
 }
 
 .face {
@@ -284,6 +286,8 @@ body {
   border: 3px solid black;
 
   background: #fff;
+
+  transform: translateY(-5px);
 }
 
 .arms {
@@ -292,7 +296,7 @@ body {
 
   background: black;
 
-  transform: rotate(-35deg);
+  transform: rotate(-90deg);
 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
